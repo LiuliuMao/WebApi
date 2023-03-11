@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>F:\IIS发布文件\YBS.WebApi</_PublishTargetUrl>
+    <History>True|2021-09-08T09:22:51.3786768Z;True|2021-09-08T17:13:00.3250448+08:00;True|2021-09-08T17:12:38.9398938+08:00;True|2021-09-08T16:27:15.2227633+08:00;</History>
+  </PropertyGroup>
+</Project>

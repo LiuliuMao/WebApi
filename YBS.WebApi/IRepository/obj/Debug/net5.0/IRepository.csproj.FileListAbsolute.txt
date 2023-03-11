@@ -1,0 +1,11 @@
+D:\源码\YBSApi\YBS.WebApi\IRepository\obj\Debug\net5.0\IRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\源码\YBSApi\YBS.WebApi\IRepository\obj\Debug\net5.0\IRepository.AssemblyInfoInputs.cache
+D:\源码\YBSApi\YBS.WebApi\IRepository\obj\Debug\net5.0\IRepository.AssemblyInfo.cs
+D:\源码\YBSApi\YBS.WebApi\IRepository\obj\Debug\net5.0\IRepository.csproj.CoreCompileInputs.cache
+D:\源码\YBSApi\YBS.WebApi\IRepository\bin\Debug\net5.0\IRepository.deps.json
+D:\源码\YBSApi\YBS.WebApi\IRepository\bin\Debug\net5.0\IRepository.dll
+D:\源码\YBSApi\YBS.WebApi\IRepository\bin\Debug\net5.0\IRepository.pdb
+D:\源码\YBSApi\YBS.WebApi\IRepository\obj\Debug\net5.0\IRepository.dll
+D:\源码\YBSApi\YBS.WebApi\IRepository\obj\Debug\net5.0\ref\IRepository.dll
+D:\源码\YBSApi\YBS.WebApi\IRepository\obj\Debug\net5.0\IRepository.pdb
+D:\源码\YBSApi\YBS.WebApi\IRepository\bin\Debug\net5.0\ref\IRepository.dll

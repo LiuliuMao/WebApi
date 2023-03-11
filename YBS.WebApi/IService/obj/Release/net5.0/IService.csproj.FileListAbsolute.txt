@@ -1,0 +1,14 @@
+D:\源码\YBSApi\YBS.WebApi\IService\bin\Release\net5.0\IService.deps.json
+D:\源码\YBSApi\YBS.WebApi\IService\bin\Release\net5.0\IService.dll
+D:\源码\YBSApi\YBS.WebApi\IService\bin\Release\net5.0\ref\IService.dll
+D:\源码\YBSApi\YBS.WebApi\IService\bin\Release\net5.0\IService.pdb
+D:\源码\YBSApi\YBS.WebApi\IService\bin\Release\net5.0\Model.dll
+D:\源码\YBSApi\YBS.WebApi\IService\bin\Release\net5.0\Model.pdb
+D:\源码\YBSApi\YBS.WebApi\IService\obj\Release\net5.0\IService.csproj.AssemblyReference.cache
+D:\源码\YBSApi\YBS.WebApi\IService\obj\Release\net5.0\IService.GeneratedMSBuildEditorConfig.editorconfig
+D:\源码\YBSApi\YBS.WebApi\IService\obj\Release\net5.0\IService.AssemblyInfoInputs.cache
+D:\源码\YBSApi\YBS.WebApi\IService\obj\Release\net5.0\IService.AssemblyInfo.cs
+D:\源码\YBSApi\YBS.WebApi\IService\obj\Release\net5.0\IService.csproj.CoreCompileInputs.cache
+D:\源码\YBSApi\YBS.WebApi\IService\obj\Release\net5.0\IService.dll
+D:\源码\YBSApi\YBS.WebApi\IService\obj\Release\net5.0\ref\IService.dll
+D:\源码\YBSApi\YBS.WebApi\IService\obj\Release\net5.0\IService.pdb
