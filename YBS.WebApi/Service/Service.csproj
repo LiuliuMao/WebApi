@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Permissions\CoreHandler.cs" />
+    <Compile Remove="Permissions\DirectorAttribute.cs" />
+    <Compile Remove="Permissions\ManagerAttribute.cs" />
+    <Compile Remove="Permissions\ManagerHandler.cs" />
+    <Compile Remove="Permissions\SupervisorAttribute.cs" />
+    <Compile Remove="Permissions\TwoFactorAttribute.cs" />
+    <Compile Remove="Permissions\TwoFactorHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="7.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
   </ItemGroup>
 

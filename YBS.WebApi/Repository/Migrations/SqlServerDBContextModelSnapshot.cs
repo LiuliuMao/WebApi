@@ -61,14 +61,14 @@ namespace Repository.Migrations
                         .HasColumnType("bigint")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<long>("CompanyId")
-                        .HasColumnType("bigint");
-
                     b.Property<DateTime>("CreateTime")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("IsEnable")
                         .HasColumnType("bit");
+
+                    b.Property<DateTime>("LastLoginTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -98,14 +98,14 @@ namespace Repository.Migrations
                         .HasColumnType("bigint")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<long>("CompanyId")
-                        .HasColumnType("bigint");
-
                     b.Property<DateTime>("CreateTime")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("IsEnable")
                         .HasColumnType("bit");
+
+                    b.Property<DateTime>("LastLoginTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -132,10 +132,10 @@ namespace Repository.Migrations
                         .HasMaxLength(25)
                         .HasColumnType("nvarchar(25)");
 
-                    b.Property<long>("CompanyId")
-                        .HasColumnType("bigint");
-
                     b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("LastLoginTime")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Password")

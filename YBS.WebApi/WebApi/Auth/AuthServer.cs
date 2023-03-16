@@ -61,6 +61,7 @@ namespace WebApi.Auth
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_authSetting.Secret);
             var claims = new List<Claim> {
+                    new Claim(JwtRegisteredClaimNames.Typ, "Supervisor"),
              new Claim(ClaimTypes.Name, user.Account),
              new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())};
             var token = new JwtSecurityToken

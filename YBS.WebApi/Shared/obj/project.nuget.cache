@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F1Q/QdOwJWqaqQtVHMsPqNe5UjpECiYMDuy0+m9bYZcnP8xZYUAs6QZFGO02NlhfeFT6npEULwsviZcrhv5T2g==",
+  "dgSpecHash": "tEW31KNWST9SG1mZyvGRkGFDipDIALTAviMKQxXjT9VRCpQjdEeQLb2Dwb6a0YBSkORjtPznYGLr8eOdGX0GQw==",
   "success": true,
-  "projectFilePath": "D:\\Worke\\netcore-web-api\\YBS.WebApi\\Shared\\Shared.csproj",
+  "projectFilePath": "D:\\Work\\WebApi\\YBS.WebApi\\Shared\\Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

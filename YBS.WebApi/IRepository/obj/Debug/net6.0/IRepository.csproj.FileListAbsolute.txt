@@ -46,3 +46,15 @@ D:\Worke\netcore-web-api\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.dll
 D:\Worke\netcore-web-api\YBS.WebApi\IRepository\obj\Debug\net6.0\refint\IRepository.dll
 D:\Worke\netcore-web-api\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.pdb
 D:\Worke\netcore-web-api\YBS.WebApi\IRepository\obj\Debug\net6.0\ref\IRepository.dll
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\bin\Debug\net6.0\IRepository.deps.json
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\bin\Debug\net6.0\IRepository.dll
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\bin\Debug\net6.0\IRepository.pdb
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.csproj.AssemblyReference.cache
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.AssemblyInfoInputs.cache
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.AssemblyInfo.cs
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.csproj.CoreCompileInputs.cache
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.dll
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\refint\IRepository.dll
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.pdb
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\ref\IRepository.dll

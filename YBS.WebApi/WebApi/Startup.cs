@@ -26,6 +26,9 @@ using WebApi.Auth;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Filters;
 using System.Reflection;
+using Service.Permissions;
+using Model.Enums;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApi
 {
@@ -65,6 +68,18 @@ namespace WebApi
             services.Configure<AuthSetting>(Configuration.GetSection("tokenConfig"));
 
             var token = Configuration.GetSection("tokenConfig").Get<AuthSetting>();
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("TwoFactor", policy => policy.Requirements.Add(new TwoFactorRequirement()));
+
+                options.AddPolicy("Supervisor", policy => policy.Requirements.Add(new ManagerRequirement(LevelEnum.Supervisor)));
+
+                options.AddPolicy("Manager", policy => policy.Requirements.Add(new ManagerRequirement(LevelEnum.Manager)));
+
+                options.AddPolicy("Director", policy => policy.Requirements.Add(new ManagerRequirement(LevelEnum.Director)));
+
+                options.DefaultPolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().AddRequirements(new CoreRequirement(LevelEnum.Beginner)).Build();
+            });
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -92,8 +107,8 @@ namespace WebApi
             services.AddScoped<IAuthServer, AuthServer>();
             #endregion
 
-            AddAssembly(services, "IService");
-            AddAssembly(services, "Service");
+            //AddAssembly(services, "IService");
+            //AddAssembly(services, "Service");
             //×¢²áDbContext
             services.AddDbContext<SqlServerDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SqlServerConnection")));
             services.AddScoped<IDBContextFactory, RepositoryFactory>();//·ºÐÍ¹¤³§

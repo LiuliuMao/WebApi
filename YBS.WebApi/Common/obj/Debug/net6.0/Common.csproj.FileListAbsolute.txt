@@ -46,3 +46,15 @@ D:\Worke\netcore-web-api\YBS.WebApi\Common\obj\Debug\net6.0\Common.dll
 D:\Worke\netcore-web-api\YBS.WebApi\Common\obj\Debug\net6.0\refint\Common.dll
 D:\Worke\netcore-web-api\YBS.WebApi\Common\obj\Debug\net6.0\Common.pdb
 D:\Worke\netcore-web-api\YBS.WebApi\Common\obj\Debug\net6.0\ref\Common.dll
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\bin\Debug\net6.0\Common.deps.json
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\bin\Debug\net6.0\Common.dll
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\bin\Debug\net6.0\Common.pdb
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\Common.csproj.AssemblyReference.cache
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\Common.dll
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\refint\Common.dll
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\Common.pdb
+D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\ref\Common.dll

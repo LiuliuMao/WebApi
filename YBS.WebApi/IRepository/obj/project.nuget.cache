@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5l4eSVWLCAp0iV1nF26Bwqie2tR+rlUjiRxwJsp1/vd228JewjSGS1fiD6ceUQHAbbU2HK9KrvRRN4Y2I3FNgA==",
+  "dgSpecHash": "AOt4BNoE99qhqKu4b4WtWBkzK6eW7wapXmaWVB6ekcqqjaQv7Bx55wfVSeLEufQL19/NY0O7x6Am5nA9QuhWPw==",
   "success": true,
-  "projectFilePath": "D:\\Worke\\netcore-web-api\\YBS.WebApi\\IRepository\\IRepository.csproj",
+  "projectFilePath": "D:\\Work\\WebApi\\YBS.WebApi\\IRepository\\IRepository.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

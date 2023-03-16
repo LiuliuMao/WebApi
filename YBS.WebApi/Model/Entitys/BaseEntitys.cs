@@ -20,9 +20,10 @@ namespace Model.Entitys
         [Required]
         public DateTime CreateTime { get; set; }
         public DateTime UpdateTime { get; set; }
+        public DateTime LastLoginTime { get; set; }
         /// <summary>
         /// 单位ID
         /// </summary>
-        public long CompanyId { get; set; }
+        //public long CompanyId { get; set; }
     }
 }

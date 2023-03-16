@@ -43,19 +43,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Worke\\netcore-web-api\\YBS.WebApi\\IService\\IService.csproj",
+      "projectUniqueName": "D:\\Work\\WebApi\\YBS.WebApi\\IService\\IService.csproj",
       "projectName": "IService",
-      "projectPath": "D:\\Worke\\netcore-web-api\\YBS.WebApi\\IService\\IService.csproj",
+      "projectPath": "D:\\Work\\WebApi\\YBS.WebApi\\IService\\IService.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Worke\\netcore-web-api\\YBS.WebApi\\IService\\obj\\",
+      "outputPath": "D:\\Work\\WebApi\\YBS.WebApi\\IService\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,17 +68,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Worke\\netcore-web-api\\YBS.WebApi\\Model\\Model.csproj": {
-              "projectPath": "D:\\Worke\\netcore-web-api\\YBS.WebApi\\Model\\Model.csproj"
+            "D:\\Work\\WebApi\\YBS.WebApi\\Model\\Model.csproj": {
+              "projectPath": "D:\\Work\\WebApi\\YBS.WebApi\\Model\\Model.csproj"
             },
-            "D:\\Worke\\netcore-web-api\\YBS.WebApi\\Shared\\Shared.csproj": {
-              "projectPath": "D:\\Worke\\netcore-web-api\\YBS.WebApi\\Shared\\Shared.csproj"
+            "D:\\Work\\WebApi\\YBS.WebApi\\Shared\\Shared.csproj": {
+              "projectPath": "D:\\Work\\WebApi\\YBS.WebApi\\Shared\\Shared.csproj"
             }
           }
         }
@@ -103,7 +109,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

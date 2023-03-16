@@ -130,8 +130,9 @@ namespace WebApi.Controllers
         /// 查询所有
         /// </summary>
         /// <returns></returns>
-        [HttpGet("GetUsers")]
-        //[AllowAnonymous]
+        [HttpPost("GetUsers")]
+        [AllowAnonymous]
+        //[Authorize("Supervisor")]
         public async Task<ApiResponse> GetUsers([FromBody] UserParameter parameter)
         {
             return await _service.GetUsers(parameter);

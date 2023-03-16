@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hMUVz5XZYEC9JovALR7yKvqabH/p58++K7efbm37kGR4ziOpUP8WTYCDkrr8xmFW9B9rUCjmmc3cUSS5JOH0cw==",
+  "dgSpecHash": "6usaU7b2RcNPRvLTIAhX760dZqj9EU6DVZWbs1J2WzRYhkTMKaoPjd9E7Vf2rjUFqwbYGp+Cqv0U2F3HWMOcyg==",
   "success": true,
-  "projectFilePath": "D:\\Worke\\netcore-web-api\\YBS.WebApi\\IService\\IService.csproj",
+  "projectFilePath": "D:\\Work\\WebApi\\YBS.WebApi\\IService\\IService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
