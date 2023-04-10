@@ -3,6 +3,7 @@ using IService;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Model;
+using Model.ViewEntitys;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -56,12 +57,13 @@ namespace WebApi.Auth
         //        ExpirySecond = _authSetting.TokenLifetime.TotalSeconds //过期时间
         //    };
         //}
-        public AuthResult CreateAuthentication(UserInfo user)
+        public AuthResult CreateAuthentication(UserViewModel user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_authSetting.Secret);
             var claims = new List<Claim> {
-                    new Claim(JwtRegisteredClaimNames.Typ, "Supervisor"),
+                    //new Claim(JwtRegisteredClaimNames.Typ, "Supervisor"),
+                     new Claim(ClaimTypes.Role, user.Role),
              new Claim(ClaimTypes.Name, user.Account),
              new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())};
             var token = new JwtSecurityToken

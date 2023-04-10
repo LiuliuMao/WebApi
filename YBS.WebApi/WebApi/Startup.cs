@@ -68,18 +68,18 @@ namespace WebApi
             services.Configure<AuthSetting>(Configuration.GetSection("tokenConfig"));
 
             var token = Configuration.GetSection("tokenConfig").Get<AuthSetting>();
-            services.AddAuthorization(options =>
-            {
-                options.AddPolicy("TwoFactor", policy => policy.Requirements.Add(new TwoFactorRequirement()));
+            //services.AddAuthorization(options =>
+            //{
+            //    options.AddPolicy("TwoFactor", policy => policy.Requirements.Add(new TwoFactorRequirement()));
 
-                options.AddPolicy("Supervisor", policy => policy.Requirements.Add(new ManagerRequirement(LevelEnum.Supervisor)));
+            //    options.AddPolicy("Supervisor", policy => policy.Requirements.Add(new ManagerRequirement(LevelEnum.Supervisor)));
 
-                options.AddPolicy("Manager", policy => policy.Requirements.Add(new ManagerRequirement(LevelEnum.Manager)));
+            //    options.AddPolicy("Manager", policy => policy.Requirements.Add(new ManagerRequirement(LevelEnum.Manager)));
 
-                options.AddPolicy("Director", policy => policy.Requirements.Add(new ManagerRequirement(LevelEnum.Director)));
+            //    options.AddPolicy("Director", policy => policy.Requirements.Add(new ManagerRequirement(LevelEnum.Director)));
 
-                options.DefaultPolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().AddRequirements(new CoreRequirement(LevelEnum.Beginner)).Build();
-            });
+            //    options.DefaultPolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().AddRequirements(new CoreRequirement(LevelEnum.Beginner)).Build();
+            //});
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -131,7 +131,6 @@ namespace WebApi
             app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseRouting();
-
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

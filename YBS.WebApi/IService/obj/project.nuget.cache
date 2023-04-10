@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6usaU7b2RcNPRvLTIAhX760dZqj9EU6DVZWbs1J2WzRYhkTMKaoPjd9E7Vf2rjUFqwbYGp+Cqv0U2F3HWMOcyg==",
+  "dgSpecHash": "faUn0iJBJMaZAmV2NxRGWK5ltc9fQy7cqL4T/irRky2vP1x/wAEa84Q8HGiUhGJSuFEiUfiQiVRcG3LIWLNu5Q==",
   "success": true,
-  "projectFilePath": "D:\\Work\\WebApi\\YBS.WebApi\\IService\\IService.csproj",
+  "projectFilePath": "D:\\Company\\Project\\WebApi\\YBS.WebApi\\IService\\IService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

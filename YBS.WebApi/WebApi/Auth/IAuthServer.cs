@@ -1,5 +1,6 @@
 ﻿using Common;
 using Model;
+using Model.ViewEntitys;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace WebApi.Auth
     public interface IAuthServer
     {
 
-        AuthResult CreateAuthentication(UserInfo user);
+        AuthResult CreateAuthentication(UserViewModel user);
 
 
         TokenModelJwt SerializeJwt(string oldToken);

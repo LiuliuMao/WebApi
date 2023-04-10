@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tEW31KNWST9SG1mZyvGRkGFDipDIALTAviMKQxXjT9VRCpQjdEeQLb2Dwb6a0YBSkORjtPznYGLr8eOdGX0GQw==",
+  "dgSpecHash": "qb8V/aspZ68QvOOJoj0R0jUuUjqvjze5i0U9bGgHZ06Z5j3p16+ndZLZ9Xr0RCD79umQV3Yyo1YZWnMn5siWnw==",
   "success": true,
-  "projectFilePath": "D:\\Work\\WebApi\\YBS.WebApi\\Shared\\Shared.csproj",
+  "projectFilePath": "D:\\Company\\Project\\WebApi\\YBS.WebApi\\Shared\\Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

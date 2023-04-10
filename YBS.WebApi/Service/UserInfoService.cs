@@ -54,9 +54,7 @@ namespace Service
             try
             {
                 string pwd = EncodeHelper.AES(Password);
-                this.GetAll();
-                var aa = this.GetAll().Where(x => x.Account.Equals(Account) && x.Password.Equals(pwd)).ToList();
-                var model = this.FirstOrDefault(x => x.Account.Equals(Account) && x.Password.Equals(pwd));
+                var model = this.FirstOrDefault(x => x.Account == Account && x.Password == pwd);
                 if (model == null)
                     return new ApiResponse("账号或密码错误,请重试！");
                 return new ApiResponse(true, model);

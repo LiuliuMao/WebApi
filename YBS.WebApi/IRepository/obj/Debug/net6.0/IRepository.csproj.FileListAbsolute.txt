@@ -58,3 +58,15 @@ D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0
 D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\refint\IRepository.dll
 D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.pdb
 D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\IRepository\obj\Debug\net6.0\ref\IRepository.dll
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\bin\Debug\net6.0\IRepository.deps.json
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\bin\Debug\net6.0\IRepository.dll
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\bin\Debug\net6.0\IRepository.pdb
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.csproj.AssemblyReference.cache
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.AssemblyInfoInputs.cache
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.AssemblyInfo.cs
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.csproj.CoreCompileInputs.cache
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.dll
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\obj\Debug\net6.0\refint\IRepository.dll
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\obj\Debug\net6.0\IRepository.pdb
+D:\Company\Project\WebApi\YBS.WebApi\IRepository\obj\Debug\net6.0\ref\IRepository.dll

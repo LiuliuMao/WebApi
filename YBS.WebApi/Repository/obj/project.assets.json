@@ -6074,23 +6074,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\liumao\\.nuget\\packages\\": {},
     "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\WebApi\\YBS.WebApi\\Repository\\Repository.csproj",
+      "projectUniqueName": "D:\\Company\\Project\\WebApi\\YBS.WebApi\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "D:\\Work\\WebApi\\YBS.WebApi\\Repository\\Repository.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\WebApi\\YBS.WebApi\\Repository\\obj\\",
+      "projectPath": "D:\\Company\\Project\\WebApi\\YBS.WebApi\\Repository\\Repository.csproj",
+      "packagesPath": "C:\\Users\\liumao\\.nuget\\packages\\",
+      "outputPath": "D:\\Company\\Project\\WebApi\\YBS.WebApi\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\liumao\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6106,11 +6106,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Work\\WebApi\\YBS.WebApi\\IRepository\\IRepository.csproj": {
-              "projectPath": "D:\\Work\\WebApi\\YBS.WebApi\\IRepository\\IRepository.csproj"
+            "D:\\Company\\Project\\WebApi\\YBS.WebApi\\IRepository\\IRepository.csproj": {
+              "projectPath": "D:\\Company\\Project\\WebApi\\YBS.WebApi\\IRepository\\IRepository.csproj"
             },
-            "D:\\Work\\WebApi\\YBS.WebApi\\Model\\Model.csproj": {
-              "projectPath": "D:\\Work\\WebApi\\YBS.WebApi\\Model\\Model.csproj"
+            "D:\\Company\\Project\\WebApi\\YBS.WebApi\\Model\\Model.csproj": {
+              "projectPath": "D:\\Company\\Project\\WebApi\\YBS.WebApi\\Model\\Model.csproj"
             }
           }
         }
@@ -6162,7 +6162,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

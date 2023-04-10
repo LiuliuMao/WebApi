@@ -899,23 +899,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\liumao\\.nuget\\packages\\": {},
     "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\WebApi\\YBS.WebApi\\Common\\Common.csproj",
+      "projectUniqueName": "D:\\Company\\Project\\WebApi\\YBS.WebApi\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "D:\\Work\\WebApi\\YBS.WebApi\\Common\\Common.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\WebApi\\YBS.WebApi\\Common\\obj\\",
+      "projectPath": "D:\\Company\\Project\\WebApi\\YBS.WebApi\\Common\\Common.csproj",
+      "packagesPath": "C:\\Users\\liumao\\.nuget\\packages\\",
+      "outputPath": "D:\\Company\\Project\\WebApi\\YBS.WebApi\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\liumao\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -972,7 +972,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

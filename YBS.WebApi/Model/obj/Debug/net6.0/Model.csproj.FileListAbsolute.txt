@@ -71,3 +71,15 @@ D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Model\obj\Debug\net6.0\Model
 D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Model\obj\Debug\net6.0\refint\Model.dll
 D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Model\obj\Debug\net6.0\Model.pdb
 D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Model\obj\Debug\net6.0\ref\Model.dll
+D:\Company\Project\WebApi\YBS.WebApi\Model\bin\Debug\net6.0\Model.deps.json
+D:\Company\Project\WebApi\YBS.WebApi\Model\bin\Debug\net6.0\Model.dll
+D:\Company\Project\WebApi\YBS.WebApi\Model\bin\Debug\net6.0\Model.pdb
+D:\Company\Project\WebApi\YBS.WebApi\Model\obj\Debug\net6.0\Model.csproj.AssemblyReference.cache
+D:\Company\Project\WebApi\YBS.WebApi\Model\obj\Debug\net6.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Company\Project\WebApi\YBS.WebApi\Model\obj\Debug\net6.0\Model.AssemblyInfoInputs.cache
+D:\Company\Project\WebApi\YBS.WebApi\Model\obj\Debug\net6.0\Model.AssemblyInfo.cs
+D:\Company\Project\WebApi\YBS.WebApi\Model\obj\Debug\net6.0\Model.csproj.CoreCompileInputs.cache
+D:\Company\Project\WebApi\YBS.WebApi\Model\obj\Debug\net6.0\Model.dll
+D:\Company\Project\WebApi\YBS.WebApi\Model\obj\Debug\net6.0\refint\Model.dll
+D:\Company\Project\WebApi\YBS.WebApi\Model\obj\Debug\net6.0\Model.pdb
+D:\Company\Project\WebApi\YBS.WebApi\Model\obj\Debug\net6.0\ref\Model.dll

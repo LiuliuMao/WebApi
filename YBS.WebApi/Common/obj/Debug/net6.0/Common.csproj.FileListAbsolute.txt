@@ -58,3 +58,15 @@ D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\Comm
 D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\refint\Common.dll
 D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\Common.pdb
 D:\Downloads\WebApi-master\WebApi-master\YBS.WebApi\Common\obj\Debug\net6.0\ref\Common.dll
+D:\Company\Project\WebApi\YBS.WebApi\Common\bin\Debug\net6.0\Common.deps.json
+D:\Company\Project\WebApi\YBS.WebApi\Common\bin\Debug\net6.0\Common.dll
+D:\Company\Project\WebApi\YBS.WebApi\Common\bin\Debug\net6.0\Common.pdb
+D:\Company\Project\WebApi\YBS.WebApi\Common\obj\Debug\net6.0\Common.csproj.AssemblyReference.cache
+D:\Company\Project\WebApi\YBS.WebApi\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Company\Project\WebApi\YBS.WebApi\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+D:\Company\Project\WebApi\YBS.WebApi\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+D:\Company\Project\WebApi\YBS.WebApi\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+D:\Company\Project\WebApi\YBS.WebApi\Common\obj\Debug\net6.0\Common.dll
+D:\Company\Project\WebApi\YBS.WebApi\Common\obj\Debug\net6.0\refint\Common.dll
+D:\Company\Project\WebApi\YBS.WebApi\Common\obj\Debug\net6.0\Common.pdb
+D:\Company\Project\WebApi\YBS.WebApi\Common\obj\Debug\net6.0\ref\Common.dll

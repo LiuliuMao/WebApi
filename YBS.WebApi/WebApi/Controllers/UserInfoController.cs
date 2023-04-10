@@ -43,19 +43,20 @@ namespace WebApi.Controllers
             var result = await _service.LoginAsync(userInfo.Account, userInfo.Password);
             if (result.Status)
             {
-                var cacheToken = _cache.GetValue(userInfo.Account);
-                if (!string.IsNullOrWhiteSpace(cacheToken))
-                {
-                    return result;
-                }
+                //var cacheToken = _cache.GetValue(userInfo.Account);
+                //if (!string.IsNullOrWhiteSpace(cacheToken))
+                //{
+                //    return result;
+                //}
                 var model = result.Data as UserInfo;
-                var response = _authServer.CreateAuthentication(model);
-                _cache.Set(model.Id.ToString(), response.token, new TimeSpan(0,0, _authSetting.AccessExpiration));
-                result.Data = new
+                userInfo.Role = "超级管理员";
+                var response = _authServer.CreateAuthentication(userInfo);
+                //_cache.Set(model.Id.ToString(), response.token, new TimeSpan(0,0, _authSetting.AccessExpiration));
+                result = new ApiResponse(true, new
                 {
                     UserName = model.UserName,
                     Token = response.token,
-                };
+                });
             }
             return result;
         }
@@ -66,44 +67,44 @@ namespace WebApi.Controllers
             return await _service.Resgiter(userInfo);
         }
 
-        [HttpPost("RefreshToken")]
-        [AllowAnonymous]
-        public async Task<ApiResponse> RefreshToken(RefreshCredentials refreshCredentials)
-        {
-            if (!ModelState.IsValid)
-            {
-                return new ApiResponse(false, BadRequest(ModelState));
-            }
+        //[HttpPost("RefreshToken")]
+        //[AllowAnonymous]
+        //public async Task<ApiResponse> RefreshToken(RefreshCredentials refreshCredentials)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return new ApiResponse(false, BadRequest(ModelState));
+        //    }
 
-            var JwtModel = _authServer.SerializeJwt(refreshCredentials.OldToken);
-            if (JwtModel == null)
-            {
-                return new ApiResponse("token无效，请重新登录！");
-            }
-            var userModel = await _service.AysGetById(int.Parse(JwtModel.UserId));
+        //    var JwtModel = _authServer.SerializeJwt(refreshCredentials.OldToken);
+        //    if (JwtModel == null)
+        //    {
+        //        return new ApiResponse("token无效，请重新登录！");
+        //    }
+        //    var userModel = await _service.AysGetById(int.Parse(JwtModel.UserId));
 
-            if (userModel != null)
-            {
-                var cacheToken = _cache.GetValue(userModel.Id.ToString());
-                if (string.IsNullOrWhiteSpace(cacheToken))
-                {
-                    return new ApiResponse("token已过期，请重新登录！");
-                }
+        //    if (userModel != null)
+        //    {
+        //        var cacheToken = _cache.GetValue(userModel.Id.ToString());
+        //        if (string.IsNullOrWhiteSpace(cacheToken))
+        //        {
+        //            return new ApiResponse("token已过期，请重新登录！");
+        //        }
 
-                var response = _authServer.CreateAuthentication(userModel);
-                if (!response.success)
-                {
-                    return new ApiResponse(false, BadRequest(response.message));
-                }
-                _cache.Set(userModel.Id.ToString(), response.token, new TimeSpan(0, 0, _authSetting.AccessExpiration));
+        //        var response = _authServer.CreateAuthentication(userModel);
+        //        if (!response.success)
+        //        {
+        //            return new ApiResponse(false, BadRequest(response.message));
+        //        }
+        //        _cache.Set(userModel.Id.ToString(), response.token, new TimeSpan(0, 0, _authSetting.AccessExpiration));
 
-                return new ApiResponse(true, response);
-            }
-            else
-            {
-                return new ApiResponse(false, "认证失败");
-            }
-        }
+        //        return new ApiResponse(true, response);
+        //    }
+        //    else
+        //    {
+        //        return new ApiResponse(false, "认证失败");
+        //    }
+        //}
 
         /// <summary>
         /// token强制失效
@@ -111,7 +112,7 @@ namespace WebApi.Controllers
         /// <param name="refreshCredentials"></param>
         /// <returns></returns>
         [HttpPost("Mandatoryoffline")]
-        [Authorize(Roles = "超级管理员")]
+        [Authorize(Roles = "超级管理员")]//Roles:获取或设置允许访问资源的角色的逗号分隔列表。
         public async Task<ApiResponse> Mandatoryoffline(RefreshCredentials refreshCredentials)
         {
             if (!ModelState.IsValid)
@@ -131,8 +132,8 @@ namespace WebApi.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpPost("GetUsers")]
-        [AllowAnonymous]
-        //[Authorize("Supervisor")]
+        //[AllowAnonymous]
+        [Authorize(Policy="Supervisor")]//Policy:获取或设置用于确定对资源的访问权限的策略名称。
         public async Task<ApiResponse> GetUsers([FromBody] UserParameter parameter)
         {
             return await _service.GetUsers(parameter);
